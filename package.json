@@ -1,0 +1,17 @@
+{
+  "name": "quorum-lease-lock",
+  "version": "1.0.0",
+  "description": "基于多数派投票与 fencing token 的分布式租约锁",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
